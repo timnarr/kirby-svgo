@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'name' => 'tobimori/kirby-svgo',
+        'pretty_version' => '0.1.0',
+        'version' => '0.1.0.0',
+        'reference' => null,
+        'type' => 'kirby-plugin',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => false,
+    ),
+    'versions' => array(
+        'getkirby/composer-installer' => array(
+            'pretty_version' => '1.2.1',
+            'version' => '1.2.1.0',
+            'reference' => 'c98ece30bfba45be7ce457e1102d1b169d922f3d',
+            'type' => 'composer-plugin',
+            'install_path' => __DIR__ . '/../getkirby/composer-installer',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'mathiasreker/php-svg-optimizer' => array(
+            'pretty_version' => '8.5.2',
+            'version' => '8.5.2.0',
+            'reference' => '7942ea9fae2cda16bab442687b4a1bec22fc9963',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../mathiasreker/php-svg-optimizer',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'tobimori/kirby-svgo' => array(
+            'pretty_version' => '0.1.0',
+            'version' => '0.1.0.0',
+            'reference' => null,
+            'type' => 'kirby-plugin',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+    ),
+);
